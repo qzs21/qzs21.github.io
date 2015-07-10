@@ -1,0 +1,18 @@
+---
+layout: page
+title : Thanks
+header : Post Archive
+group: navigation
+---
+{% include JB/setup %}
+
+<div id="footer">
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+      with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+      and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+    </p>
+  </div>
+</div>
+
+{% include JB/posts_collate %}

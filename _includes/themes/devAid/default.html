@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include themes/DevAid/base/head.html %}
+<body data-spy="scroll">
+{% include themes/DevAid/default/header.html %}
+
+
+<div id="wrap" style="padding-top:50px;">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
+
+{% include JB/analytics %}
+{% include themes/DevAid/base/footer.html %}
+
+</body>
+</html>
